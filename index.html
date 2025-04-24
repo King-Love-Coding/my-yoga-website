@@ -624,7 +624,7 @@ footer p img {
 }
 
 
-/* Responsive styles */
+
 @media (max-width: 1024px) {
   .hero {
     flex-direction: column;
@@ -654,16 +654,24 @@ footer p img {
 
   .text-box, .image-box {
     width: 100%;
-    padding: 20px;
+    margin: 0;
+    padding: 40px 20px;
   }
 
   .text-box {
+    height: auto;
     margin-left: 0;
+    margin-top: 0;
+  }
+
+  .text-box h2 {
+    font-size: 2.5rem;
   }
 
   .image-box img {
     width: 100%;
-    margin-right: 0;
+    height: auto;
+    margin: 0;
   }
 }
 
@@ -688,12 +696,45 @@ footer p img {
   .stats-container {
     flex-direction: column;
     gap: 20px;
+    align-items: center;
   }
 
   .circle {
     width: 150px;
     height: 150px;
   }
+
+  .stat-number {
+    font-size: 24px;
+  }
+
+  .stat-para {
+    font-size: 12px;
+    margin-top: 0.5rem;
+  }
+
+  .text-box h2 {
+    font-size: 2rem;
+  }
+
+  .btn {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .instructor-row {
+    flex-direction: column;
+  }
+
+  .instructor-row.reverse {
+    flex-direction: column-reverse;
+  }
+
+  .image-box,
+  .text-box {
+    padding: 20px;
+  }
+}
 
   .pricing-cards {
     flex-direction: column;
@@ -727,6 +768,31 @@ footer p img {
   .profile-wrapper {
     width: 100px;
     height: 100px;
+  }
+
+  .stats-section {
+    padding: 40px 10px;
+  }
+
+  .stats-section h2 {
+    font-size: 24px;
+  }
+
+  .stats-section p {
+    font-size: 14px;
+  }
+
+  .circle {
+    width: 120px;
+    height: 120px;
+  }
+
+  .stat-number {
+    font-size: 20px;
+  }
+
+  .stat-para {
+    font-size: 11px;
   }
 }
 
