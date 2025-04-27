@@ -830,6 +830,31 @@ border-radius: 5px;
   .footer-links p {
     margin: 10px 0; 
   }
+
+   .footer > div:last-child { 
+    text-align: center; 
+  }
+
+  .footer > div:last-child p {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin: 10px 0; 
+  }
+
+  .footer > div:last-child p a {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    gap: 10px;
+    text-align: center; 
+    margin: 5px 0; 
+  }
+
+  .footer > div:last-child p a img {
+    width: 24px;
+    height: 24px;
+  }
 }
 
 
