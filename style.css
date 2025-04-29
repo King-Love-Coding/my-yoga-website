@@ -725,7 +725,7 @@ border-radius: 5px;
   nav ul {
     list-style: none;
     display: flex;
-    gap: 4.5rem;
+    gap: 3rem;
     font-size: 12px;
     
   }
@@ -734,7 +734,7 @@ border-radius: 5px;
     text-decoration: none;
     color:black;
     font-weight:bolder;
-    margin-left: .5rem;
+    margin-left: -1rem;
   }
 
 
