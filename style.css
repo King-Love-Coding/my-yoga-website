@@ -6,13 +6,13 @@
   }
 
   body {
-    background-color:white;
+    background-color:hsl(120, 33%, 96%);
     overflow-x:hidden;
     
   }
 
   header {
-    background-color: #e8f0ef;
+    background-color: #a7d7c5;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,6 +20,9 @@
     height:0rem;
     margin-top: 2rem;
     border-bottom: 1px solid #ccc;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
   }
 
   header img {
@@ -47,7 +50,7 @@ align-items: center;
 justify-content: space-between;
 border: solid #dddddd;
 gap: 40px;
-background-color:white;
+background-color:#f3f9f3;
 
 }
 
@@ -65,6 +68,9 @@ flex: 1;
 
 .hero-right h1 {
 font-size: 5rem;
+font-family: 'Montserrat', sans-serif;
+font-weight: 800;
+text-transform: uppercase;
 margin-bottom: 10px;
 margin-left: 8rem;
 font-family: "Poppins", sans-serif;
@@ -77,6 +83,8 @@ background-color: transparent;
 
 .hero-right p {
 font-size: 15px; 
+font-family: 'Poppins', sans-serif;
+font-weight: 300;
 line-height: 1.5;
 margin-left: 10rem;
 max-width: 400px; 
@@ -98,7 +106,9 @@ border-radius:5rem;
 text-decoration: none;
 width: 8rem;
 height: 1.8rem;
-font-weight: bold;
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+text-transform: uppercase;
 justify-content: center;
 align-items: center;
 
@@ -138,30 +148,35 @@ pointer-events: none;
 
 
 .choose-class {
-background: rgb(140, 180, 166); 
-  backdrop-filter: blur(8px); 
+  background-color: #6c9793;
+  backdrop-filter: blur(8px);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 20px;
-  color:white; 
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
-}
+  color: rgb(42.35%, 59.22%, 57.65%);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  font-family:"poppins";
+  }
 
 
 
 .choose-class h2 {
 font-size: 3rem;
+font-family: 'Montserrat', sans-serif;
+font-weight: 800;
+text-transform: uppercase;
 color: white;
 margin-top:2rem;
 margin-left:32rem;
-font-family: "poppins",sans-serif;
 }
 
 .section-desc {
 max-width: 600px;
 margin: 0 auto 40px;
 font-size: 16px;
+font-family: 'Poppins', sans-serif;
+font-weight: 300;
 color: white;
 margin-left: 30rem;
 display: -webkit-box;
@@ -192,18 +207,20 @@ margin: 0 auto 15px;
 }
 
 .class-item h3 {
-font-size: 20px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 800;
+text-transform: uppercase;
 color: white;
 margin-top:-5px;
 margin-left: 4rem;
-font-family: "poppins",sans-serif;
 }
 
 .class-item p {
-font-size: 14px;
 color: white;
 margin-top: 1rem;
 margin-left: 4rem;
+font-family: 'Poppins', sans-serif;
+font-weight: 300;
 }
 
 
@@ -233,13 +250,18 @@ z-index: 2;
 }
 
 .stats-section h2 {
-font-size: 30px;
+font-size: 40px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 800;
+text-transform: uppercase;
 color: #3c7f7f;
 margin-bottom: 10px;
 }
 
 .stats-section p {
 font-size: 16px;
+font-family: 'Poppins', sans-serif;
+font-weight: 300;
 color: #444;
 margin-bottom: 40px;
 }
@@ -335,13 +357,16 @@ margin-top:1rem;
 
 .instructor-layout .text-box h2 {
   font-size: 2.5rem;
-  font-weight: 700;
-  margin-bottom: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
   text-transform: uppercase;
+  margin-bottom: 15px;
 }
 
 .instructor-layout .text-box p {
   font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
   line-height: 1.6;
   margin-bottom: 20px;
 }
@@ -350,7 +375,9 @@ margin-top:1rem;
   background-color: white;
   color: #144f4f;
   padding: 10px 20px;
-  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
   text-decoration: none;
   border-radius: 5px;
   display: inline-block;
@@ -404,6 +431,9 @@ background-color: #6b9793;
 
 .pricing-section h2 {
 font-size: 2.5rem;
+font-family: 'Montserrat', sans-serif;
+font-weight: 800;
+text-transform: uppercase;
 margin-bottom: 10px;
 }
 
@@ -411,6 +441,8 @@ margin-bottom: 10px;
 max-width: 700px;
 margin: 0 auto 40px auto;
 font-size: 1.1rem;
+font-family: 'Poppins', sans-serif;
+font-weight: 300;
 color: white;
 }
 
@@ -459,6 +491,9 @@ margin-top: 25px;
 padding: 10px 20px;
 background-color: #2d867e;
 color: white;
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+text-transform: uppercase;
 text-decoration: none;
 border-radius: 5px;
 width: 15rem;
@@ -523,14 +558,18 @@ background-color: darkgrey;
 
 .subscribe h2 {
 font-size: 32px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 800;
+text-transform: uppercase;
 margin-bottom: 10px;
 color:white;
-font-family:"poppins",sans-serif;
 }
 
 .subscribe p {
 margin-bottom: 30px;
 color: darkslategray;
+font-family: 'Poppins', sans-serif;
+font-weight: 300;
 display: -webkit-box;
 -webkit-line-clamp: 3;
 -webkit-box-orient: vertical;
@@ -569,7 +608,9 @@ color: grey;
 margin-left: -4rem;
 border: none;
 border-radius: 35px;
-font-weight: bold;
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+text-transform: uppercase;
 cursor: pointer;
 transition: background-color 0.3s;
 }
@@ -592,6 +633,8 @@ color: white;
  .footer-links p {
   margin: 16px 0; 
   color: #555;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
 }
 
   .footer-para{
@@ -796,7 +839,7 @@ border-radius: 5px;
     font-size: 1rem; 
   }
 
-    .profile-wrapper {
+  .profile-wrapper {
     position: relative;
     width: 150px;
     height: 150px;
@@ -861,30 +904,33 @@ border-radius: 5px;
     margin: 10px 0; 
   }
 
-   .footer > div:last-child { 
+  .footer > div:nth-child(4) { 
     text-align: center; 
   }
 
-  .footer > div:last-child p {
-    display: flex; 
+  .footer > div:nth-child(4) p {
+    display: flex;
     flex-direction: column; 
     align-items: center; 
     margin: 10px 0; 
   }
 
-  .footer > div:last-child p a {
+  .footer > div:nth-child(4) p a {
     display: flex;
     flex-direction: row; 
     align-items: center; 
-    gap: 10px;
-    text-align: center; 
+    gap: 10px; 
+    text-decoration: none; 
+    color: #000; 
     margin: 5px 0; 
   }
 
-  .footer > div:last-child p a img {
+  .footer > div:nth-child(4) p a img {
     width: 24px;
     height: 24px;
+    vertical-align: middle; 
   }
+
 }
 
 
