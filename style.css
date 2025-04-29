@@ -726,7 +726,7 @@ border-radius: 5px;
   nav ul {
     list-style: none;
     display: flex;
-    gap: 6rem;
+    gap: 5rem;
     font-size: 12px;
     
   }
