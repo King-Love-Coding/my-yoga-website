@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
   }
 
   body {
@@ -735,7 +734,7 @@ border-radius: 5px;
     text-decoration: none;
     color:black;
     font-weight:bolder;
-    margin-left: 1rem;
+    margin-left: -2rem;
   }
 
 
