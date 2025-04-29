@@ -883,7 +883,8 @@ color:#509995;
   }
 
   .subscribe-form .btn {
-    width: 50%; 
+    width: 20%;
+    height: 20%;
     margin-left: 0;
   }
 
