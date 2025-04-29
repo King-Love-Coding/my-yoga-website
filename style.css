@@ -741,6 +741,7 @@ border-radius: 5px;
   .hero {
     flex-direction: column; 
     text-align: center; 
+    background-color:#f3f9f3;
   }
 
   .hero-left img {
@@ -757,6 +758,10 @@ border-radius: 5px;
   .hero-right h1 {
     font-size: 3rem; 
     margin-left: 0; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    color:grey;
   }
 
   .hero-right p {
