@@ -405,7 +405,19 @@ margin-top:1rem;
 }
 
 
+.instructor-layout .white-bg {
+  background-color: white;
+  color: grey;
+}
 
+.instructor-layout .white-bg h2 {
+  color: grey;
+}
+
+.instructor-layout .grey-bg {
+  background-color: grey;
+  color: white;
+}
 
 
 
@@ -666,19 +678,20 @@ color:#509995;
 
 
 
+
 @media screen and (min-width: 1024px) {
 
     .hero {
       padding: 60px 100px;
       flex-direction: row;
       align-items: center;
-      gap: 10rem;
+      gap: 2rem;
     }
   
     .hero-left img {
       max-width: 400px;
       height: auto;
-      margin-left: 30rem;
+      margin-left:4rem;
     }
   
     .hero-right h1 {
@@ -744,7 +757,10 @@ color:#509995;
       padding: 25px 60px;
     }
   }
-@media (max-width: 768px) {
+  
+
+
+@media  (max-width: 768px) {
   header {
     background-color: #e8f0ef;
     display: flex;
@@ -764,9 +780,8 @@ color:#509995;
   nav ul {
     list-style: none;
     display: flex;
-    gap: 5rem;
-    font-size: 8px;
-    
+    gap: 4.8rem;
+    font-size: 12px;
   }
 
   nav ul li a {
@@ -907,6 +922,8 @@ color:#509995;
     border: 3px solid white;
     }
 
+  
+
   .subscribe-form {
     position: relative;
     width: 90%;
@@ -940,6 +957,7 @@ color:#509995;
     justify-content: center;
     border: none;
   }
+  
 
   .footer {
     flex-direction: column; 
