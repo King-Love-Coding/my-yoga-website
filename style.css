@@ -666,48 +666,84 @@ color:#509995;
 
 
 
-@media (max-width: 1024px) {
-.hero {
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
+@media screen and (min-width: 1024px) {
 
-.hero-left img {
-  margin-left: 0;
-}
-
-.hero-right h1,
-.hero-right p {
-  margin-left: 0;
-}
-
-.head-btn {
-  margin-left: 0;
-  margin-top: 1rem;
-}
-
-.choose-class h2,
-.section-desc {
-  margin-left: 0;
-  text-align: center;
-}
-
-.text-box, .image-box {
-  width: 100%;
-  padding: 20px;
-}
-
-.text-box {
-  margin-left: 0;
-}
-
-.image-box img {
-  width: 100%;
-  margin-right: 0;
-}
-}
-
+    .hero {
+      padding: 60px 100px;
+      flex-direction: row;
+      align-items: center;
+      gap: 10rem;
+    }
+  
+    .hero-left img {
+      max-width: 400px;
+      height: auto;
+      margin-left: 30rem;
+    }
+  
+    .hero-right h1 {
+      font-size: 5rem;
+      text-align: left;
+    }
+  
+    .hero-right p {
+      font-size: 1.2rem;
+      text-align: left;
+      max-width: 500px;
+    }
+  
+    .head-btn {
+      justify-content: flex-start;
+    }
+  
+    
+    .choose-class h2,
+    .choose-class .section-desc {
+      text-align: center;
+      margin: 0 auto;
+    }
+  
+    .class-grid {
+      justify-content: center;
+      gap: 60px;
+    }
+  
+    .class-item {
+      max-width: 250px;
+      flex: 1 1 250px;
+      text-align: center;
+    }
+  
+    .class-item img {
+      width: 150px;
+      height: 150px;
+    }
+  
+    
+    .stats-container {
+      flex-direction: row;
+      gap: 50px;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 40px 0;
+    }
+  
+    .stat-item {
+      width: 200px;
+      height: 200px;
+      font-size: 1.2rem;
+    }
+  
+    
+    nav ul li a {
+      font-size: 1.1rem;
+      margin-left: 30px;
+    }
+  
+    header {
+      padding: 25px 60px;
+    }
+  }
 @media (max-width: 768px) {
   header {
     background-color: #e8f0ef;
