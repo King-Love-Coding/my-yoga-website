@@ -673,6 +673,13 @@ footer p img {
       margin-top: -2.8rem;
       margin-left: -2rem;
   }
+
+  .subscribe-form .btn {
+      position: relative;
+      margin-left: 0;
+      margin-top: 1rem;
+      width: 100%;
+
 }
 
 @media (max-width: 575.98px) {
