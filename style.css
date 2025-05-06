@@ -502,7 +502,7 @@ p, .section-desc, .nav-link {
   transition: background-color 0.3s;
 }
 
-/* Footer */
+
 .footer {
   background: #f2f9f4;
   padding: 40px 20px;
@@ -662,8 +662,8 @@ footer p img {
       height: 120px;
   }
   .flower-frame {
-      width: 170%;
-      height: 170%;
+      width: 150%;
+      height: 150%;
       margin-top: -4.5rem;
       margin-left: -4rem;
   }
