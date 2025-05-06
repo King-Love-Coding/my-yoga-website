@@ -566,6 +566,21 @@ footer p img {
 }
 
 @media (max-width: 991.98px) {
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #f2f9f4;
+  font-family: 'Poppins', sans-serif;
+  max-width: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
   .hero-left img {
       margin-left: 3rem;
   }
@@ -588,6 +603,21 @@ footer p img {
 }
 
 @media (max-width: 767.98px) {
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #f2f9f4;
+  font-family: 'Poppins', sans-serif;
+  max-width: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
   .hero {
       flex-direction: column;
       text-align: center;
@@ -673,6 +703,21 @@ footer p img {
 }
 
 @media (max-width: 575.98px) {
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #f2f9f4;
+  font-family: 'Poppins', sans-serif;
+  max-width: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
   .hero-right h1 {
       font-size: 2.5rem;
   }
