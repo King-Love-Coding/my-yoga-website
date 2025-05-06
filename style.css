@@ -668,19 +668,40 @@ footer p img {
       margin-left: -2rem;
   }
 
+  .subscribe {
+    padding: 40px 15px;
+  }
+
+  .subscribe h2 {
+    font-size: 24px;
+  }
+
+  .subscribe p {
+    font-size: 14px;
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .subscribe-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .subscribe-form input[type="email"] {
+    width: 90%;
+    font-size: 14px;
+    padding: 12px;
+    margin: 0;
+  }
+
   .subscribe-form .btn {
-  position:relative;
-  padding: 18px 5rem;
-  background-color: whitesmoke;
-  color: grey;
-  margin-left: -4rem;
-  border: none;
-  border-radius: 35px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  text-transform: uppercase;
-  cursor: pointer;
-  transition: background-color 0.3s;
+    width: 90%;
+    margin-left: 0;
+    padding: 12px;
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 575.98px) {
