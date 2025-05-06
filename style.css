@@ -669,6 +669,7 @@ footer p img {
   }
 
   .subscribe-form .btn {
+  position:relative;
   padding: 18px 5rem;
   background-color: whitesmoke;
   color: grey;
