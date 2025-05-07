@@ -670,6 +670,11 @@ footer p img {
 }
 
 @media (max-width: 575.98px) {
+
+    body{
+    overflow-x: hidden;
+  }
+  
   .hero-right h1 {
       font-size: 2.5rem;
   }
