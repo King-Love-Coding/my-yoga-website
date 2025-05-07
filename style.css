@@ -70,6 +70,29 @@ p, .section-desc, .nav-link {
 
 
 @media (max-width: 768px) {
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #f2f9f4;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto; 
+  padding: 0 15px;
+}
+  
+  
   .navbar-nav {
     flex-wrap: nowrap; 
     overflow: hidden; 
