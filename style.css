@@ -14,11 +14,7 @@ body {
   padding: 0;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto; /* centers the container */
-  padding: 0 15px;
-}
+
 
 h1, h2, h3 {
   font-family: 'Montserrat', sans-serif;
