@@ -5,13 +5,13 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-html,body {
+body {
   background-color: #f2f9f4;
   overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
   max-width: 100%;
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
 }
 
 .container {
@@ -83,13 +83,18 @@ p, .section-desc, .nav-link {
   .nav-link {
     margin-left: 1rem;  
     margin-right: 1rem;
-    font-size: .6rem;
   }
 
   .flex-grow-1 {
     padding: 1rem;
   }
 }
+
+
+
+
+
+
 
 
 .hero {
@@ -561,7 +566,6 @@ footer p img {
 }
 
 @media (max-width: 991.98px) {
- 
   .hero-left img {
       margin-left: 3rem;
   }
@@ -584,7 +588,6 @@ footer p img {
 }
 
 @media (max-width: 767.98px) {
-  
   .hero {
       flex-direction: column;
       text-align: center;
@@ -656,56 +659,20 @@ footer p img {
       height: 120px;
   }
   .flower-frame {
-      width: 150%;
-      height: 150%;
-      margin-top: -3rem;
-      margin-left: -3rem;
+      width: 180%;
+      height: 180%;
+      margin-top: -4.5rem;
+      margin-left: -6rem;
   }
   .profile-pic {
       width: 7rem;
       height: 7rem;
-      margin-top: -2.8rem;
+      margin-top: -3.5rem;
       margin-left: -2rem;
-  }
-
-  .subscribe {
-    padding: 40px 15px;
-  }
-
-  .subscribe h2 {
-    font-size: 24px;
-  }
-
-  .subscribe p {
-    font-size: 14px;
-    max-width: 100%;
-    padding: 0 10px;
-  }
-
-  .subscribe-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-  }
-
-  .subscribe-form input[type="email"] {
-    width: 90%;
-    font-size: 14px;
-    padding: 12px;
-    margin: 0;
-  }
-
-  .subscribe-form .btn {
-    width: 90%;
-    margin-left: 0;
-    padding: 12px;
-    font-size: 14px;
   }
 }
 
 @media (max-width: 575.98px) {
-  
   .hero-right h1 {
       font-size: 2.5rem;
   }
@@ -720,8 +687,22 @@ footer p img {
   }
   .subscribe-form .btn {
       position: relative;
-      margin-left: 0;
-      margin-top: 1rem;
-      width: 100%;
+      margin-left:0;
+      margin-top: 0;
+      width: 20%;
+      justify-content: center;
+      align-items: center;
   }
+
+  .subscribe-form .btn {
+    position: relative;
+    margin-left: 0;
+    margin-top: 0;
+    width: 46%;
+    justify-content: flex-start; 
+    align-items: center;
+    text-align: right; 
+    padding-left: 60px; 
+}
+
 }
