@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
   width: 100%;
+  max-width:1000px;
 }
 
 body {
