@@ -1,4 +1,4 @@
-*, *::before, *::after {
+*, *::before, *::after{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,15 +7,19 @@
 
 body {
   background-color: #f2f9f4;
+  overflow-x: hidden;
   font-family: 'Poppins', sans-serif;
   width: 100%;
   max-width: 1000px;
-  margin:0;
-  padding:0;
-  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
-
+.container {
+  max-width: 1200px;
+  margin: 0 auto; 
+  padding: 0 15px;
+}
 
 h1, h2, h3 {
   font-family: 'Montserrat', sans-serif;
@@ -70,7 +74,7 @@ p, .section-desc, .nav-link {
 }
 
 
-@media (max-width: 768px) {  
+@media (max-width: 768px) {
   .navbar-nav {
     flex-wrap: nowrap; 
     overflow: hidden; 
@@ -585,10 +589,6 @@ footer p img {
 }
 
 @media (max-width: 767.98px) {
-  body{
-    overflow-x: hidden;
-  }
-  
   .hero {
       flex-direction: column;
       text-align: center;
@@ -674,11 +674,6 @@ footer p img {
 }
 
 @media (max-width: 575.98px) {
-
-    body{
-    overflow-x: hidden;
-  }
-  
   .hero-right h1 {
       font-size: 2.5rem;
   }
