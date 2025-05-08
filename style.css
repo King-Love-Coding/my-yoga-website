@@ -9,7 +9,7 @@ body {
   background-color: #f2f9f4;
   overflow-x: hidden;
   font-family: 'Poppins', sans-serif;
-  width: 150%;
+  width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -588,6 +588,10 @@ footer p img {
 }
 
 @media (max-width: 767.98px) {
+
+  body{
+    width: 150%;
+  }
   .hero {
       flex-direction: column;
       text-align: center;
@@ -673,6 +677,14 @@ footer p img {
 }
 
 @media (max-width: 575.98px) {
+
+  .hero-left img {
+    margin-left: 0;
+    width: 100%;
+    max-width: none;
+    margin-top: 1rem;
+}
+
   .hero-right h1 {
       font-size: 2.5rem;
   }
