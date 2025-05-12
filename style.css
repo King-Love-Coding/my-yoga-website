@@ -55,40 +55,43 @@ p, .section-desc, .nav-link {
   color: #00897b;
 }
 
+.hamburger {
+  font-size: 1.8rem;
+  margin-left: auto;
+  display: none;
+}
+
 
 @media (max-width: 1128px) {
+   .hamburger {
+    display: block;
+  }
+
   .navbar-nav {
-    flex-wrap: nowrap; 
-  }
-
-  .logo-rectangle {
-    width: 60px; 
-    height: 80px;
-  }
-
-  .nav-link {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-}
-
-
-@media (max-width: 768px) {
-  .navbar-nav {
-    flex-wrap: nowrap; 
-    overflow: hidden; 
-    justify-content: space-between;
-  }
-
-  .nav-link {
-    margin-left: 1rem;  
-    margin-right: 1rem;
-  }
-
-  .flex-grow-1 {
+    flex-direction: column !important;
+    display: none !important;
+    background-color: #dcebe9;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
     padding: 1rem;
+    z-index: 999;
+  }
+
+  .navbar-nav.show {
+    display: flex !important;
+  }
+
+  
+  .navbar-nav .nav-item {
+    margin: 0.5rem 0;
+    text-align: right;
   }
 }
+
+
+
 
 
 
@@ -550,6 +553,25 @@ footer p img {
 
 
 @media (max-width: 1199.98px) {
+  .hamburger {
+    display: block;
+  }
+
+  .navbar-nav {
+    flex-direction: column !important;
+    display: none;
+    background-color: #dcebe9;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .navbar-nav.show {
+    display: flex !important;
+  }
+
   .hero-left img {
       margin-left: 6rem;
   }
@@ -566,6 +588,25 @@ footer p img {
 }
 
 @media (max-width: 991.98px) {
+  .hamburger {
+    display: block;
+  }
+
+  .navbar-nav {
+    flex-direction: column !important;
+    display: none;
+    background-color: #dcebe9;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .navbar-nav.show {
+    display: flex !important;
+  }
+
   .hero-left img {
       margin-left: 3rem;
   }
@@ -592,6 +633,27 @@ footer p img {
   body{
     width: 150%;
   }
+
+  .hamburger {
+    display: block;
+  }
+
+  .navbar-nav {
+    flex-direction: column !important;
+    display: none;
+    background-color: #dcebe9;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .navbar-nav.show {
+    display: flex !important;
+  }
+
+
   .hero {
       flex-direction: column;
       text-align: center;
@@ -677,6 +739,25 @@ footer p img {
 }
 
 @media (max-width: 575.98px) {
+
+  .hamburger {
+    display: block;
+  }
+
+  .navbar-nav {
+    flex-direction: column !important;
+    display: none;
+    background-color: #dcebe9;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .navbar-nav.show {
+    display: flex !important;
+  }
 
   .hero-left img {
     margin-left: 0;
