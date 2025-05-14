@@ -78,7 +78,7 @@
   
 
   
-  <section class="stats-section container-fluid py-5">
+<section class="stats-section container-fluid py-5" id="statsSection">
   <h2 class="text-center">Our Stats</h2>
   <p class="text-center mx-auto">
     We take pride in helping individuals achieve balance and wellness. Here's a quick look at what we've accomplished through dedication, consistency, and community.
@@ -87,22 +87,22 @@
   <div class="stats-container row justify-content-center py-4">
     <div class="stat-box col-lg-4 col-md-4 col-12 text-center mb-4">
       <div class="circle mx-auto">
-        <div class="stat-number" data-target="1500">0</div>
-        <p class="stat-para">Happy Students</p>
+        <div class="stat-number" id="students">100</div>
+        <p class="stat-para">🎓 Students Enrolled</p>
       </div>
     </div>
 
     <div class="stat-box col-lg-4 col-md-4 col-12 text-center mb-4">
       <div class="circle mx-auto">
-        <div class="stat-number" data-target="120">0</div>
-        <p class="stat-para">Weekly Sessions</p>
+        <div class="stat-number" id="sessions">150</div>
+        <p class="stat-para">🧘 Sessions Conducted</p>
       </div>
     </div>
 
     <div class="stat-box col-lg-4 col-md-4 col-12 text-center mb-4">
       <div class="circle mx-auto">
-        <div class="stat-number" data-target="25">0</div>
-        <p class="stat-para">Certified Trainers</p>
+        <div class="stat-number" id="trainers">25</div>
+        <p class="stat-para">🧑‍🏫 Hours Trained </p>
       </div>
     </div>
   </div>
@@ -317,26 +317,32 @@
   }
 </script>
 
+
 <script>
-  const counters = document.querySelectorAll('.stat-number');
-  const speed = 100; // lower is faster
+  function continuouslyCount(id, intervalTime) {
+    const element = document.getElementById(id);
+    let count = parseInt(element.innerText);
 
-  counters.forEach(counter => {
-    const updateCount = () => {
-      const target = +counter.getAttribute('data-target');
-      const count = +counter.innerText;
-      const increment = target / speed;
+    setInterval(() => {
+      count += 1;
+      element.innerText = count;
+    }, intervalTime);
+  }
 
-      if (count < target) {
-        counter.innerText = Math.ceil(count + increment);
-        setTimeout(updateCount, 20);
-      } else {
-        counter.innerText = target;
+  let observer = new IntersectionObserver(function (entries, observer) {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        
+        continuouslyCount('students', 1000);  
+        continuouslyCount('sessions', 1000);   
+        continuouslyCount('trainers', 1000);  
+
+        observer.unobserve(entry.target); 
       }
-    };
+    });
+  }, { threshold: 0.5 }); 
 
-    updateCount();
-  });
+  observer.observe(document.querySelector('#statsSection'));
 </script>
 
 
