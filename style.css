@@ -25,6 +25,7 @@ h1, h2, h3 {
   font-weight: 800;
   text-transform: uppercase;
 }
+
 p, .section-desc, .nav-link {
   font-family: 'Poppins', sans-serif;
 }
@@ -86,17 +87,9 @@ p, .section-desc, .nav-link {
   
   .navbar-nav .nav-item {
     margin: 0.5rem 0;
-    text-align: center;
+    text-align: right;
   }
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -128,13 +121,13 @@ p, .section-desc, .nav-link {
 .hero-right p {
   font-size: 15px;
   font-family: 'Poppins', sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   color: #4b9692;
   line-height: 1.5;
   margin-left: 10rem;
-  max-width: 400px;
+  max-width: 600px;
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -527,11 +520,11 @@ p, .section-desc, .nav-link {
 
 .footer-para {
   display: -webkit-box;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 4.5;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 500px;
+  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
   color: #4b9692;
