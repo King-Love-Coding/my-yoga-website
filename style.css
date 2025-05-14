@@ -246,8 +246,8 @@ p, .section-desc, .nav-link {
 }
 
 .circle {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border: 2px solid #509995;
   border-radius: 50%;
   display: flex;
@@ -270,6 +270,8 @@ p, .section-desc, .nav-link {
 
 .stat-para {
   font-size: 14px;
+  font-style:oblique;
+  font-weight:5rem bolder;
   color: #3c7f7f;
   margin: 0;
   margin-top: 1rem;
