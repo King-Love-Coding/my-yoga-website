@@ -102,7 +102,8 @@ p, .section-desc, .nav-link {
   max-width: 450px;
   border-radius: 20px;
   margin-left: 12rem;
-  margin-top: 2rem;
+  margin-top:-1rem;
+  margin-bottom: 4rem;
 }
 
 .hero-right h1 {
@@ -486,7 +487,7 @@ p, .section-desc, .nav-link {
 }
 
 .subscribe-form .btn {
-  padding: 18px 5rem;
+  padding: 15px 3rem;
   background-color: whitesmoke;
   color: grey;
   margin-left: -4rem;
@@ -544,6 +545,13 @@ footer p img {
   vertical-align: middle;
   border-radius: 5px;
   color: #509995;
+}
+
+footer p svg {
+  width: 20px;       
+  height: 20px;      
+  flex-shrink: 0;    
+  fill: currentColor;
 }
 
 
