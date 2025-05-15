@@ -481,7 +481,7 @@ p, .section-desc, .nav-link {
   padding: 10px 15px;
   background-color: white;
   border: 2px solid grey;
-  border-radius: 35px;
+  border-radius: 45px;
   font-size: 16px;
   text-align: left;
 }
@@ -490,7 +490,6 @@ p, .section-desc, .nav-link {
   padding: 15px 3rem;
   background-color: whitesmoke;
   color: grey;
-  margin-left: -4rem;
   border: none;
   border-radius: 35px;
   font-family: 'Poppins', sans-serif;
@@ -762,6 +761,8 @@ footer p svg {
       margin-top: -1rem;
       margin-left: -3rem;
   }
+
+  
 }
 
 @media (max-width: 575.98px) {
@@ -804,24 +805,7 @@ footer p svg {
   .price-btn {
       width: 100%;
   }
-  .subscribe-form .btn {
-      position: relative;
-      margin-left:0;
-      margin-top: 0;
-      width: 20%;
-      justify-content: center;
-      align-items: center;
-  }
-
-  .subscribe-form .btn {
-    position: relative;
-    margin-left: 0;
-    margin-top: 0;
-    width: 46%;
-    justify-content: flex-start; 
-    align-items: center;
-    text-align: right; 
-    padding-left: 60px; 
-}
+  
+  
 
 }
