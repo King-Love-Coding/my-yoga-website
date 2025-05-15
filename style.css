@@ -554,6 +554,29 @@ footer p svg {
   fill: currentColor;
 }
 
+.accordion-body p a {
+  text-decoration: none;
+  color: #4b9692;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+.accordion-body p a:hover {
+  color: #2e6f6c;
+  transition: color 0.3s ease;
+}
+
+.footer-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  flex-shrink: 0;
+}
+
+
 
 @media (max-width: 1199.98px) {
   .hamburger {
