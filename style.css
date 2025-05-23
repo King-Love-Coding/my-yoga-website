@@ -179,20 +179,6 @@ p, .section-desc, .nav-link {
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
   color: white;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.class-item img {
-  width: 100%;
-  height: auto;
-  border-radius: 0;
-  filter: brightness(1) contrast(1.2);
-  display: block;
-  margin: 0 auto 15px;
 }
 
 .class-item h3 {
@@ -203,12 +189,15 @@ p, .section-desc, .nav-link {
   margin-top: -5px;
 }
 
+
 .class-item p {
   color: white;
   margin-top: 1rem;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
 }
+
+
 
 
 .stats-section {
@@ -540,18 +529,36 @@ footer p a {
   gap: 10px;
 }
 
-footer p img {
+.sprite {
+  display: inline-block;
+  width: 32px; /* Increased from 24px */
+  height: 32px; /* Increased from 24px */
+  background-image: url('images/css_sprites.png'); 
+  background-size: 66px 66px; /* Increased proportionally from 50px to maintain clarity */
+  margin-right: 8px;
   vertical-align: middle;
-  border-radius: 5px;
-  color: #509995;
 }
 
-footer p svg {
-  width: 20px;       
-  height: 20px;      
-  flex-shrink: 0;    
-  fill: currentColor;
+
+.facebook {
+  background-position: -65px 0;
 }
+
+.twitter {
+  background-position: -30px 0;
+}
+
+.instagram {
+  background-position: 1px 30px;
+}
+
+.whatsapp {
+  background-position: -100px 30px;
+}
+
+
+
+
 
 .accordion-body p a {
   text-decoration: none;
@@ -568,12 +575,7 @@ footer p svg {
   transition: color 0.3s ease;
 }
 
-.footer-icon {
-  width: 20px;
-  height: 20px;
-  border-radius: 5px;
-  flex-shrink: 0;
-}
+
 
 
 
