@@ -776,7 +776,7 @@ footer p a {
   }
 
    .class-sprite.pose1 {
-    background-position: -920px -980px; 
+    background-position: -980px -950px; 
   }
 
   .stat-para {
@@ -810,7 +810,7 @@ footer p a {
   }
 
    .instructor-sprite {
-    background-size: 1200px 900px;
+    background-size: 1500px 900px;
     background-position: center center; 
     padding-top: 10rem !important;      
     padding-bottom: 15rem !important;   
