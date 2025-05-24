@@ -197,6 +197,30 @@ p, .section-desc, .nav-link {
   font-weight: 300;
 }
 
+.class-sprite {
+  width: 180px; 
+  height: 180px;
+  margin: 0 auto 1rem auto;
+  background-image: url('images/css_sprites Big.png'); 
+  background-size: 768px 841px;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+
+.class-sprite.pose1 {
+  background-position: -820px -190px;
+}
+
+.class-sprite.pose2 {
+  background-position: -582px 1px;
+}
+
+.class-sprite.pose3 {
+  background-position: -325px -580px;
+}
+
+
 
 
 
@@ -319,6 +343,35 @@ p, .section-desc, .nav-link {
   display: block;
 }
 
+.instructor-sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url('images/css_sprites Big.png');
+  background-size: 2000px 1500px; 
+  background-repeat: no-repeat;
+  background-color: #ccc;
+  background-position: -90px -130px; 
+}
+
+
+.instructor1 {
+  background-position: -11px -780px; 
+  padding-top:15rem;
+  padding-bottom: 27rem;
+}
+
+.instructor2 {
+  background-position: -100px -130px; 
+  padding-top: 2rem;
+  padding-bottom: 27rem;
+}
+
+
+
+
+
+
+
 
 .pricing-section {
   padding: 40px 20px;
@@ -385,6 +438,8 @@ p, .section-desc, .nav-link {
   justify-content: center;
   border: none;
 }
+
+
 
 
 .testimonial {
@@ -531,12 +586,13 @@ footer p a {
 
 .sprite {
   display: inline-block;
-  width: 32px; /* Increased from 24px */
-  height: 32px; /* Increased from 24px */
+  width: 32px; 
+  height: 32px; 
   background-image: url('images/css_sprites.png'); 
-  background-size: 66px 66px; /* Increased proportionally from 50px to maintain clarity */
+  background-size: 66px 66px;
   margin-right: 8px;
   vertical-align: middle;
+  filter: brightness(0) saturate(100%) invert(42%) sepia(17%) saturate(569%) hue-rotate(126deg) brightness(90%) contrast(87%);
 }
 
 
@@ -718,6 +774,11 @@ footer p a {
       margin-left: 0;
       text-align: center;
   }
+
+   .class-sprite.pose1 {
+    background-position: -920px -980px; 
+  }
+
   .stat-para {
       margin-top: 2rem;
       margin-right: 0;
@@ -747,6 +808,26 @@ footer p a {
       width: 100%;
       height: 300px;
   }
+
+   .instructor-sprite {
+    background-size: 1200px 900px;
+    background-position: center center; 
+    padding-top: 10rem !important;      
+    padding-bottom: 15rem !important;   
+  }
+
+  .instructor1 {
+    background-position: -10px -500px !important; 
+    padding-top: 10rem !important;
+    padding-bottom: 15rem !important;
+  }
+
+  .instructor2 {
+    background-position: -80px -10px !important;
+    padding-top: 10rem !important;
+    padding-bottom: 15rem !important;
+  }
+
   .profile-wrapper {
       width: 120px;
       height: 120px;
